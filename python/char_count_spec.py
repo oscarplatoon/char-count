@@ -9,7 +9,7 @@ print(char_count("aaabbc") == {
 })
 
 print(char_count("an apple a day will keep the doctor away") == {
-  "a":6,
+  "a":5,
   "e":4,
   "l":3,
   "p":3,
