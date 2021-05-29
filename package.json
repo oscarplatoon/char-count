@@ -1,0 +1,22 @@
+{
+  "name": "char-count",
+  "version": "1.0.0",
+  "description": "For each unique character that appears in the input string, report the number of occurrences of that character in the input.  Report each character on its own line, in descending order based on the number of occurrences. Output values in a dictionary. Each line should be formatted as follows:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarplatoon/char-count.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscarplatoon/char-count/issues"
+  },
+  "homepage": "https://github.com/oscarplatoon/char-count#readme",
+  "devDependencies": {
+    "jest": "^27.0.1"
+  }
+}
