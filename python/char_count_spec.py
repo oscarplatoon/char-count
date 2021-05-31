@@ -5,6 +5,9 @@ from char_count import char_count
 
 class CharCountTestCase(unittest.TestCase):
 
+  def test_dict_output(self):
+    self.assertIsInstance(char_count("aaa"), dict)
+  
   def test_aaabbc(self):
     self.assertEqual(char_count("aaabbc"), {
   "a": 3,
