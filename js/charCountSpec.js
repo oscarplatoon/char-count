@@ -2,6 +2,8 @@
 
 var char = require("./charCount");
 
+
+
 console.log(char.charCount("aaabbc")['a'] === 3)
 console.log(char.charCount("aaabbc")['b'] === 2)
 console.log(char.charCount("aaabbc")['c'] === 1)

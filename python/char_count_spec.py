@@ -2,9 +2,11 @@
 
 from char_count import char_count
 
+
+
 print(char_count("aaabbc") == {
   "a": 3,
-  "b": 2,
+  "b": 2, 
   "c": 1
 })
 
