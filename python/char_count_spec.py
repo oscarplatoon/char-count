@@ -1,14 +1,17 @@
-# Can you translate this driver code to unit tests?
-
+import unittest
 from char_count import char_count
 
-print(char_count("aaabbc") == {
+class CharCountTest(unittest.TestCase):
+
+  def test_1(self):
+    self.assertEqual(char_count("aaabbc"),{
   "a": 3,
   "b": 2,
   "c": 1
 })
 
-print(char_count("an apple a day will keep the doctor away") == {
+  def test_2(self):
+    self.assertEqual(char_count("an apple a day will keep the doctor away"),{
   "a":6,
   "e":4,
   "l":3,
@@ -25,3 +28,8 @@ print(char_count("an apple a day will keep the doctor away") == {
   "n":1,
   "r":1
 })
+
+if __name__ == '__main__':
+  unittest.main()
+
+
